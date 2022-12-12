@@ -13,7 +13,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private static final String TABLE_ACCOUNT = "Accounts";
+    private static final String TABLE_ACCOUNT ="Accounts";
     private static final String ACC_NO_COL = "Account_no";
 
     private static final String TABLE_TRANSACTION = "Transaction_table";
